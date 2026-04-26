@@ -2,11 +2,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 # 🔥 ROUTES IMPORT
-from backend.app.routes import upload
-from backend.app.routes import analyze
-from backend.app.routes import questions
-from backend.app.routes import study_plan
-from backend.app.routes import evaluate
+from app.routes import upload
+from app.routes import analyze
+from app.routes import questions
+from app.routes import study_plan
+from app.routes import evaluate
 
 # 🚀 APP INIT
 app = FastAPI(title="AI Skill Assessor 🚀")
