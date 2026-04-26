@@ -1,13 +1,15 @@
 import os
-from urllib import response
-
 import requests
 import json
+from dotenv import load_dotenv
+
+load_dotenv
 
 
 API_KEY = API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-
+if not API_KEY:
+    print("api key not found")
 
 # 🔥 COMMON CONFIG
 
