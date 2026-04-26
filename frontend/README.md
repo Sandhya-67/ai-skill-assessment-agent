@@ -40,4 +40,4 @@ This system supports real-time voice interaction:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-skill-assessment-agent.git
+git clone https://github.com/Sandhya-67/ai-skill-assessment-agent.git

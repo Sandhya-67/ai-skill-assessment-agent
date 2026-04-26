@@ -1,10 +1,11 @@
+import os
 from urllib import response
 
 import requests
 import json
 
 
-API_KEY = "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"
+API_KEY = API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 
 
